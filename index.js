@@ -39,7 +39,7 @@ app.post("/place-order", (req, res) => {
   // Email options
   const mailOptions = {
     from: email,
-    to: "pk5279697@gmail.com", // Your email
+    to: process.env.TO, // Your email
     subject: "New Order Placed",
     html: `
         <h1>New Order Details</h1>
