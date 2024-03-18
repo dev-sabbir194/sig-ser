@@ -28,7 +28,7 @@ app.post("/place-order", (req, res) => {
     phone,
     address,
     paymentMethod,
-    sele
+    selectedSize,
     quantity,
     subtotal,
     shippingCost,
@@ -55,6 +55,7 @@ app.post("/place-order", (req, res) => {
         <p><strong>Subtotal:</strong> ${subtotal}</p>
         <p><strong>Shipping Cost:</strong> ${shippingCost}</p>
         <p><strong>Total:</strong> ${total}</p>
+        <p><strong>Size:</strong> ${selectedSize}</p>
       `,
   };
 
