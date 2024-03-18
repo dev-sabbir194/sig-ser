@@ -28,6 +28,7 @@ app.post("/place-order", (req, res) => {
     phone,
     address,
     paymentMethod,
+    sele
     quantity,
     subtotal,
     shippingCost,
